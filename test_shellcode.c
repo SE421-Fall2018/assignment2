@@ -3,6 +3,7 @@
  */
 #include <stdlib.h>
 #include <stdio.h>
+#include <string.h>
 
 const char shellcode[] =
   "\x31\xc0"             /* xorl    %eax,%eax              */
